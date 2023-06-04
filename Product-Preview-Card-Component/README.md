@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Destkop](/design/screenshot-desktop.png)
-![Destkop](/design/screenshot-mobile.png)
+![Destkop](design/screenshot-desktop.png)
+![Destkop](design/screenshot-mobile.png)
 
 ### Built with
 
