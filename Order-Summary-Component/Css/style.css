@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* CARD-BG - START */
+.card{
+    max-width: 450px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.bg-card img{
+    border-radius: 20px 20px 0px 0px;
+    max-width: 100%;
+}
+/* CARD-BG - END */
+/* CONTENT - START */
+article{
+    text-align: center;
+    margin: 30px 50px;
+}
+
+article h2{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.65rem;
+}
+
+article p{
+    color: hsl(224, 23%, 55%); 
+    margin-top: 15px;
+    line-height: 1.6;
+}
+/* CONTENT - END */
+/* PRICE-CARD START */
+.price-card{
+    background-color: hsl(225, 100%, 98%);  
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+}
+
+.music-logo{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    color:hsl(224, 23%, 55%);
+}
+
+.music-logo img{
+    margin-right: 20px;
+}
+
+.music-logo h4{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.price-card a{
+    display: block;
+    color:hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 14px;
+    justify-self: flex-end;
+}
+
+.price-card a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* PRICE-CARD - END */
+/* PAYMENT BUTTON - START */
+.payment{
+    text-align: center;
+    margin: 25px 0 40px 0px;
+}
+
+.btn{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 15px 30px;
+    width: 360px;
+    font-weight: 900;
+    box-shadow: 0px 15px 20px 0px  hsl(245, 75%, 87%);
+}
+
+.payment a {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.payment a:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    cursor: pointer;
+}
+/* PAYMENT BUTTON - END */
+/* FOOTER - START */
+footer{
+    text-align: center;
+    margin-top: -25px;
+}
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+/* RESPONSIVE CARD - START */
+
+@media screen and (max-width:768px) {
+    main{
+        width: 100%;
+    }
+
+    .card{
+        width: 90%;
+    }
+    
+    article{
+        margin: 30px 40px;
+    }
+    
+    .btn{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    main{
+        width: 100%;
+    }
+
+    .card{
+        width: 90%;
+    }
+    
+    article{
+        margin: 30px 40px;
+    }
+    
+    .btn{
+        max-width: 80%;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .price-card a{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+}
+/* RESPONSIVE CARD - END */
