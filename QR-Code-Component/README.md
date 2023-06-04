@@ -19,8 +19,8 @@ Challenge is to build out this QR code component and get it looking as close to 
 
 ### Screenshot
 
-![Desktop-Design](/design/screenshot-desktop.png)
-![Mobile-Design](/design/mobile-design.jpg)
+![Desktop-Design](design/screenshot-desktop.png)
+![Mobile-Design](design/mobile-design.jpg)
 
 
 ### Links
