@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-Design - 1440px](/design/screenshot-desktop.png)
-![Mobile-Design - 375px](/design/screenshot-mobile.png)
+![Desktop-Design - 1440px](design/screenshot-desktop.png)
+![Mobile-Design - 375px](design/screenshot-mobile.png)
 
 ### Links
 
