@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Dekstop - Design](/design/desktop-design.jpg)
-![Mobile - Design](/design/screenshot-mobile.png)
+![Dekstop - Design](design/desktop-design.jpg)
+![Mobile - Design](design/screenshot-mobile.png)
 
 
 
