@@ -20,8 +20,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Desktop-Design](/design/screenshot-desktop.png)
-![Mobile-Design](/design/screenshot-mobile.png)
+![Desktop-Design](design/screenshot-desktop.png)
+![Mobile-Design](design/screenshot-mobile.png)
 
 ### Links
 
