@@ -127,12 +127,14 @@ footer .icons-social ul li:first-child a:hover{
     cursor: pointer;
     color: white;
 }
+
 footer .icons-social ul li:nth-child(2) a:hover{
     background: hsl(203, 89%, 53%);
     border: none;
     cursor: pointer;
     color: white;
 }
+
 footer .icons-social ul li:last-child a:hover{
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
                 radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
@@ -154,3 +156,41 @@ footer .copyright{
     margin-top: 1.2rem;
 }
 /* Footer End */
+
+/* Responsive */
+@media screen and (max-width: 545px) {
+    header {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    header h2 {
+        font-size: 1.8rem;
+        margin: 1rem 0 0.5rem 0;
+    }
+
+    header h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn-1 {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .email {
+        width: 100%;
+        margin-top: 1rem;
+        margin-right: 0;
+    }
+
+    main {
+        align-items: center;
+    }
+
+    .mockup img {
+        margin-top: 3rem;
+        width: 250px;
+    }
+}
