@@ -7,7 +7,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -23,13 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-Design](/design/screenshot-dekstop.png)
-![Mobile-Design](/design/screenshot-mobile.png)
-
-### Links
-
-- [Solution URL](https://github.com/dellenar/result-summary-component)
-- [Live Site URL](https://dellenar.github.io/Result-Summary-Component/)
+![Desktop-Design](design/screenshot-dekstop.png)
+![Mobile-Design](design/screenshot-mobile.png)
 
 ## My process
 
