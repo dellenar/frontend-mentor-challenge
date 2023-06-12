@@ -14,10 +14,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop_1](/design/screenshot_1.png)
-![Desktop_2](/design/screenshot_2.png)
-![Desktop_3](/design/screenshot_3.png)
-![Mobile](/design/screenshot_4.png)
+![Desktop_1](design/screenshot_1.png)
+![Desktop_2](design/screenshot_2.png)
+![Desktop_3](design/screenshot_3.png)
+![Mobile](design/screenshot_4.png)
 
 ## My process
 
