@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Css/style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <main>
+    <div class="left-side">
+      <article>
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great,but understanding how developers think is invaluable. 
+        </p>
+      </article>
+    </div>
+    <div class="right-side">
+      <div class="trail">
+        <p>  
+          Try it free 7 days then 
+          <span>$20/mo. thereafter</span> 
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" class= "icon" id="name" placeholder="First Name">
+        <p class="warnings">First Name cannot be empty</p>
+        <input type="text" class= "icon" id="surname" placeholder="Last Name">
+        <p class="warnings">Last Name cannot be empty</p>
+        <input type="email" class= "icon" id="email" placeholder="Email Adress">
+        <p class="invalid">Look like this is not an email</p>
+        <p class="warnings">
+          Email Adress cannot be empty
+        </p>
+        <input type="password" class= "icon" id="password" placeholder="Password">
+        <p class="warnings">Password cannot be empty</p>
+        <button class="btn" id="btn"> 
+           CLAIM YOUR FREE TRAIL
+        </button>
+        <p class="terms-of-service">
+          By clicking the button, you are agreeing to our  
+          <span>Terms and Services</span>
+        </p>
+      </div>
+    </div>
+  </main>
+  <script src="Js/app.js"></script>
+</body>
+</html>
