@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<style>
+    .box-shadow{
+        -webkit-box-shadow:20px 35px 50px hsla(252, 100%, 67%,0.15);
+        -moz-box-shadow:20px 35px 50px hsla(252, 100%, 67%,0.15);
+        box-shadow: 20px 35px 50px hsla(252, 100%, 67%,0.15);
+    }
+</style>
+<body class="bg-">
+    <main class="flex justify-center items-center md:h-screen">
+        <section class="bg-white flex flex-col md:flex-row box-shadow rounded-3xl w-full min-h-screen md:min-h-0  md:max-w-screen-sm ">
+            <div class="bg-gradient-to-b from-[#7857FF] to-[#2E2BE9] text-center rounded-t-none rounded-3xl md:rounded-3xl pb-8 flex-1">
+                <h1 class="text-[#C8C7FF] text-2xl font-bold m-7">Your Result</h1>
+                <div class="bg-gradient-to-b from-[#4E21CA] to-[#2421CA] rounded-full inline-block w-44 h-44">
+                    <h2 class="text-white text-5xl font-extrabold mt-14">76</h2>
+                    <p class="text-[#C8C7FF] mt-2 font-medium">of 100</p>
+                </div>
+                <h3 class="text-white text-3xl font-bold mt-3">Great</h3>
+                <p class="text-[#C8C7FF] text-base font-medium mt-3 mx-12">You scored higher than 65% of the people who have taken these tests</p>
+            </div>
+            <div class="flex-1 ml-10 my-3">
+                <h1 class="text-[#303B5A] text-xl font-bold">Summary</h1>
+                <div class="mt-8  mr-12">
+                    <div class="flex bg-[#FF5757] bg-opacity-10 rounded-lg mt-3 p-3">
+                        <img src="../assets/images/icon-reaction.svg"  alt="reaction">
+                        <p class="ml-2 text-[#FF5757]">Reaction</p>
+                        <p class="ml-auto">80 <span> / 100</span></p>
+                    </div>
+                    <div class="flex bg-[#FFB01F] bg-opacity-10 rounded-lg mt-3 p-3">
+                        <img src="../assets/images/icon-memory.svg"  alt="reaction">
+                        <p class="ml-2 text-[#FFB01F]">Memory</p>
+                        <p class="ml-auto">92 <span> / 100</span></p>
+                    </div>
+                    <div class="flex bg-[#00BD91] bg-opacity-10 rounded-lg mt-3 p-3">
+                        <img src="../assets/images/icon-verbal.svg"  alt="reaction">
+                        <p class="ml-2 text-[#00BD91]">Verbal</p>
+                        <p class="ml-auto">61 <span> / 100</span></p>
+                    </div>
+                    <div class="flex bg-[#1125D4] bg-opacity-10 rounded-lg mt-3 p-3">
+                        <img src="../assets/images/icon-visual.svg"  alt="reaction">
+                        <p class="ml-2 text-[#1125D4]">Visual</p>
+                        <p class="ml-auto">72 <span> / 100</span></p>
+                    </div>
+                    <button class="bg-[#303B5A] text-[#EBF1FF] rounded-2xl mt-10 w-full p-3 hover:bg-gradient-to-b from-[#7857FF] to-[#2E2BE9] cursor-pointer">Continue</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
